@@ -19,3 +19,6 @@ num2 = 34
 #num2 = int(input("Enter second number: "))
 
 print("The L.C.M. of", num1,"and", num2,"is", lcm(num1, num2))
+
+#output:
+The L.C.M. of 67 and 34 is 2278
