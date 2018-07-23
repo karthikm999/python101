@@ -1,6 +1,6 @@
 # Python program to check if the input number is prime or not
 
-num = 407
+num = 97
 
 # take input from the user
 # num = int(input("Enter a number: "))
@@ -20,3 +20,8 @@ if num > 1:
 # or equal to 1, it is not prime
 else:
    print(num,"is not a prime number")
+
+#output:97 is a prime number
+# if num is 407
+#output:407 is not a prime number
+11 times 37 is 407
