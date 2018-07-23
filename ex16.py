@@ -6,7 +6,8 @@ sum = 0
 
 # iterate over the list
 for val in numbers:
-	sum = sum+val
+    sum = sum+val
+print("The sum is", sum)
 
-# Output: The sum is x
-print("The sum is", sum
+#output:
+The sum is 48
