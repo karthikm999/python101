@@ -1,9 +1,29 @@
-import cmath
-a= float(input('enter a: '))
-b= float(input('enter b: '))
-c= float(input('enter c: '))
-d= (b**2)-(4*a*c)
-res1 =(-b-cmath.sqrt(d))/(2*a)
-res2 =(-b+cmath.sqrt(d))/(2*a)
-print('the solution are {0} and {1}'.format(res1,res2))
+tabby_cat = "\tI'm tabbed in."
+persian_cat = "I'm split\n on a line."
+backslash_cat = "I'm \\ a \\ cat."
+
+fat_cat = """
+I'll do a list:
+\t* Cat food
+\t* Fishies
+\t* Catnip\n\t* Grass
+"""
+
+print(tabby_cat)
+print(persian_cat)
+print(backslash_cat)
+print(fat_cat)
+
+#output:
+
+        I'm tabbed in.
+I'm split
+ on a line.
+I'm \ a \ cat.
+
+I'll do a list:
+        * Cat food
+        * Fishies
+        * Catnip
+        * Grass
 
